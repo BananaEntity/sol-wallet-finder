@@ -1,0 +1,22 @@
+{
+  "name": "sol-wallet-finder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@solana/web3.js": "^1.29.2",
+    "bip32": "^2.0.6",
+    "bip39": "^3.0.4",
+    "borsh": "^0.4.0",
+    "chalk": "^4.1.2",
+    "ed25519-hd-key": "^1.2.0",
+    "tweetnacl": "^1.0.3",
+    "yargs": "^17.2.1"
+  }
+}
